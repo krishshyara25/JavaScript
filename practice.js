@@ -153,39 +153,39 @@
 // console.log(sum)
 
 
-function specialround() {
+// function specialround() {
 
-    let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,23,29]
-    let length = 0;
-    for (i = 0; array[i] != undefined; i++) {
-        length = length + 1
-    }
- console.log('Length of given Array is ',length)
+//     let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,23,29]
+//     let length = 0;
+//     for (i = 0; array[i] != undefined; i++) {
+//         length = length + 1
+//     }
+//  console.log('Length of given Array is ',length)
 
-    // prime
+//     // prime
 
-    let temp = [];
+//     let temp = [];
     
-    for (j = 0; j <length; j++) {
-        let prime = 0;
-        for (k = 2; k < array[j]; k++) {
-            if (array[j] % k == 0) {
-                prime = prime + 1
-            }
+//     for (j = 0; j <length; j++) {
+//         let prime = 0;
+//         for (k = 2; k < array[j]; k++) {
+//             if (array[j] % k == 0) {
+//                 prime = prime + 1
+//             }
 
-        }
-        if (prime == 0) {
+//         }
+//         if (prime == 0) {
 
-            temp.push(array[j])
-        }
+//             temp.push(array[j])
+//         }
 
-    }
+//     }
     
-    console.log(temp)
-    // LArgest Prime
+//     console.log(temp)
+//     // LArgest Prime
 
-    temp = temp.sort((a,b) => b-a)
-    console.log("Total prime =",temp.length, "" , "Largest Prime is",temp[0])
-}
+//     temp = temp.sort((a,b) => b-a)
+//     console.log("Total prime =",temp.length, "" , "Largest Prime is",temp[0])
+// }
 
-specialround()
+// specialround()
